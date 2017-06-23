@@ -15,6 +15,7 @@
  */
 'use strict';
 
+
 const functions = require('firebase-functions'),
       admin = require('firebase-admin'),
       logging = require('@google-cloud/logging')();

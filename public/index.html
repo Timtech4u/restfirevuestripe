@@ -5,6 +5,19 @@
     <title>Exploring Stripe and Firebase Integration</title>
     <script src="https://js.stripe.com/v2/"></script>
     <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyD8MVlxIUQ24O84DA1JVeyJxoshJ63lYm8",
+    authDomain: "erestmeal.firebaseapp.com",
+    databaseURL: "https://erestmeal.firebaseio.com",
+    projectId: "erestmeal",
+    storageBucket: "erestmeal.appspot.com",
+    messagingSenderId: "578299072697"
+  };
+  firebase.initializeApp(config);
+</script>
     <link rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/1.0.0/firebaseui.css" />
   </head>
   <body>
